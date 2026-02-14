@@ -53,7 +53,7 @@
             bindings = <
 &kp F1          &kp F2       &kp F3       &kp F4      &kp F5      &kp F6                          &kp F7            &kp F8  &kp F9  &kp F10  &kp F11      &kp F12
 &trans          &kp EXCL     &kp RA(L)    &kp RA(N8)  &kp RA(N9)  &kp RA(N7)                      &kp LS(DE_PLUS)   &kp N7  &kp N8  &kp N9   &kp DE_PLUS  &kp DEL
-&kp LS(DE_HASH) &kp DE_HASH  &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp GRAVE                       &kp LS(N7)        &kp N4  &kp N5  &kp N6   &kp SLASH    &kp DE_UDIA
+&kp LS(DE_HASH) &kp DE_HASH  &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp UC(0060)                       &kp LS(N7)        &kp N4  &kp N5  &kp N6   &kp SLASH    &kp DE_UDIA
 &moom           &kp PRCNT    &kp DE_CIRC  &kp RA(N5)  &kp RA(N6)  &kp RA(N)     &trans    &trans  &kp N0            &kp N1  &kp N2  &kp N3   &kp LS(N0)    &trans
                       &trans       &trans      &trans      &trans               &trans    &trans  &trans            &trans  &trans  &trans
             >;
@@ -67,7 +67,7 @@
             label = "RAISE";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &kp LS(DE_SS)
-&trans      &trans        &kp END       &kp UP        &kp HOME      &kp PG_UP                              &trans           &trans           &kp UP           &trans           &trans  &kp DEL
+&trans      &trans        &kp END       &kp UP        &kp HOME      &kp PG_UP                              &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &kp UP           &trans           &trans  &kp DEL
 &trans      &trans        &kp RIGHT     &kp DOWN      &kp LEFT      &kp PG_DN                              &trans           &kp LEFT         &kp DOWN         &kp RIGHT        &trans  &trans
 &trans      &trans        &kp DE_LESS   &trans        &trans        &trans        &kp LC(LG(Q))    &trans  &trans           &trans           &trans           &trans           &trans  &trans
                           &trans        &trans        &trans        &trans        &trans           &trans  &trans           &trans           &trans           &trans
