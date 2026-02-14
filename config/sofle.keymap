@@ -33,7 +33,7 @@
 
             // Zeile 0: 12 Tasten
             // Zeile 1: 12 Tasten
-            // Zeile 2: 12 Tasten
+            // Zeile 2: 12 Tasten(((((((((((--00000000---((((zzzzz---)))))))))))))))
             // Zeile 3: 14 Tasten (inkl. Encoder-Knöpfe in der Mitte)
             // Zeile 4: 10 Tasten (Daumenreihe)
 
@@ -51,11 +51,11 @@
         lower_layer {
             label = "LOWER";
             bindings = <
-&kp F1   &kp F2       &kp F3       &kp F4      &kp F5      &kp F6                                 &kp F7     &kp F8  &kp F9  &kp F10  &kp F11      &kp F12
-&trans   &kp EXCL     &kp RA(L)    &kp RA(N7)  &kp RA(N0)  &kp RA(NON_US_BSLH)                    &kp STAR   &kp N7  &kp N8  &kp N9   &kp DE_PLUS  &kp DEL
-&kp SQT  &kp DE_HASH  &kp DLLR     &kp RA(N8)  &kp RA(N9)  &kp RA(RBKT)                           &kp SLASH  &kp N4  &kp N5  &kp N6   &kp MINUS    &kp DE_UDIA
-&moom    &kp PRCNT    &kp DE_CIRC  &kp RA(N5)  &kp RA(N6)  &kp RA(Y)            &trans    &trans  &kp N0     &kp N1  &kp N2  &kp N3   &kp EQUAL    &trans
-                      &trans       &trans      &trans      &trans               &trans    &trans  &trans     &trans  &trans  &trans
+&kp F1          &kp F2       &kp F3       &kp F4      &kp F5      &kp F6                          &kp F7            &kp F8  &kp F9  &kp F10  &kp F11      &kp F12
+&trans          &kp EXCL     &kp RA(L)    &kp RA(N8)  &kp RA(N9)  &kp RA(N7)                      &kp LS(DE_PLUS)   &kp N7  &kp N8  &kp N9   &kp DE_PLUS  &kp DEL
+&kp LS(DE_HASH) &kp DE_HASH  &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp EQUAL                       &kp LS(N7)        &kp N4  &kp N5  &kp N6   &kp SLASH    &kp DE_UDIA
+&moom           &kp PRCNT    &kp DE_CIRC  &kp RA(N5)  &kp RA(N6)  &kp RA(N)     &trans    &trans  &kp N0            &kp N1  &kp N2  &kp N3   &kp LS(N0)    &trans
+                      &trans       &trans      &trans      &trans               &trans    &trans  &trans            &trans  &trans  &trans
             >;
 
             sensor-bindings =
