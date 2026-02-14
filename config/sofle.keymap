@@ -21,7 +21,7 @@
         moom: moom {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LA(LCMD(DOWN)))>;
+            bindings = <&kp LC(LA(LG(DOWN)))>;
         };
     };
 
