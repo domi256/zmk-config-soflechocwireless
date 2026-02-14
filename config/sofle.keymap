@@ -40,7 +40,7 @@
 &kp ESC     &kp Q      &kp W     &kp E     &kp R     &kp T                             &kp DE_Z  &kp U     &kp I     &kp O     &kp P     &kp BSPC
 &kp TAB     &kp A      &kp S     &kp D     &kp F     &kp G                             &kp H     &kp J     &kp K     &kp L     &kp DE_ODIA &kp DE_ADIA
 &kp LSHFT   &kp DE_Y   &kp X     &kp C     &kp V     &kp B     &kp C_MUTE    &kp C_PP  &kp N     &kp M     &kp COMMA &kp DOT   &kp SLASH &kp RSHFT
-                       &kp LCTRL &mo 2     &kp LCMD  &kp SPACE &kp ENTER     &kp ENTER &kp SPACE &kp RALT  &mo 1     &kp RCTRL
+                       &kp LCTRL &mo 2     &kp LCMD  &kp SPACE &kp ENTER     &kp RALT &kp SPACE &kp RCMD  &mo 1     &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
@@ -62,7 +62,7 @@
         raise_layer {
             label = "RAISE";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4           &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans &kp DE_SS
+&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4           &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans &kp DE_QUES
 &trans      &trans     &kp END   &kp UP    &kp HOME  &kp PG_UP                         &trans    &trans    &kp UP    &trans    &trans    &kp DEL
 &trans      &trans     &kp RIGHT &kp DOWN  &kp LEFT  &kp PG_DN                         &trans    &kp LEFT  &kp DOWN  &kp RIGHT &trans    &trans
 &trans      &trans     &kp DE_LESS &trans  &trans    &trans    &kp LC(LG(Q)) &trans    &trans    &trans    &trans    &trans    &trans    &trans
