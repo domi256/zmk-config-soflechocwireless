@@ -53,7 +53,7 @@
             bindings = <
 &kp F1          &kp F2       &kp F3       &kp F4      &kp F5      &kp F6                          &kp F7            &kp F8  &kp F9  &kp F10  &kp F11      &kp F12
 &trans          &kp EXCL     &kp RA(L)    &kp RA(N8)  &kp RA(N9)  &kp RA(N7)                      &kp LS(DE_PLUS)   &kp N7  &kp N8  &kp N9   &kp DE_PLUS  &kp DEL
-&kp LS(DE_HASH) &kp DE_HASH  &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp UC(0060)                       &kp LS(N7)        &kp N4  &kp N5  &kp N6   &kp SLASH    &kp DE_UDIA
+&kp LS(DE_HASH) &kp DE_HASH  &kp DLLR     &kp LS(N8)  &kp LS(N9)  &kp LS(EQUAL)                   &kp LS(N7)        &kp N4  &kp N5  &kp N6   &kp SLASH    &kp DE_UDIA
 &moom           &kp PRCNT    &kp DE_CIRC  &kp RA(N5)  &kp RA(N6)  &kp RA(N)     &trans    &trans  &kp N0            &kp N1  &kp N2  &kp N3   &kp LS(N0)    &trans
                       &trans       &trans      &trans      &trans               &trans    &trans  &trans            &trans  &trans  &trans
             >;
